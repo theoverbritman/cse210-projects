@@ -21,7 +21,7 @@ class Program
 
             double area = sh.GetArea();
 
-            Console.WriteLine($"The {color} shape has an area of {area}.");
+            Console.WriteLine($"The {color} shape has an area of {area:0.00}.");
         }
     }
 }
